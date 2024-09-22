@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Alcometer</title>
+</head>
+<body>
+    <div id="container">
+        <h3>Alcometer</h3>
+        <div>
+            <label>Weight</label>
+            <input type="number"/>
+        </div>
+        <div>
+            <label>Time</label>
+            <select name="time">
+                <option value="1">1 hour</option>
+                <option value="2">2 hours</option>
+                <option value="3">3 hours</option>
+                <option value="4">4 hours</option>
+                <option value="5">5 hours</option>
+                <option value="6">6 hour</option>
+                <option value="7">7 hours</option>
+                <option value="8">8 hours</option>
+                <option value="9">9 hours</option>
+                <option value="10">10 hours</option>
+            </select>
+        </div>
+        <div>
+            <label>Bottles</label>
+            <select name="bottles">
+                <option value="1">1 bottle</option>
+                <option value="2">2 bottles</option>
+                <option value="3">3 bottles</option>
+                <option value="4">4 bottles</option>
+                <option value="5">5 bottles</option>
+                <option value="6">6 bottles</option>
+                <option value="7">7 bottles</option>
+                <option value="8">8 bottles</option>
+                <option value="9">9 bottles</option>
+                <option value="10">10 bottles</option>
+            </select>
+        </div>
+        <div>
+            <label>Gender</label>
+            <input type="radio" name="gender" value="male" checked><label>Male</label>
+            <input type="radio" name="gender" value="female"><label>Female</label>
+        </div>
+        <div>
+            <label>Result</label>
+            <output></output>
+        </div>
+        <div>
+            <button type="button" id="calculate">Calculate</button>
+        </div>
+    </div>
+    <script src="./js/functions.js"></script>
+</body>
+</html>
